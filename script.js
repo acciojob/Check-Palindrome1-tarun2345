@@ -12,7 +12,7 @@ function palindrome(str){
 	let i=0;
 	let j=s.length-1;
 	while(i<j){
-		if(s.charAt(i)!=s.charAt(j))
+		if(s.charAt(i)!== s.charAt(j))
 		{
 			return false;
 		}
