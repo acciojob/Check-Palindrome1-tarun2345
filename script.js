@@ -4,7 +4,7 @@ function palindrome(str){
 	var s = "";
 	for(let i=0;i<str.length;i++)
 		{
-			if(str.charAt(i)!=' ')
+			if(str.charAt(i)!==' ')
 			{
 				s=s+str.charAt(i);
 			}
@@ -16,6 +16,8 @@ function palindrome(str){
 		{
 			return false;
 		}
+		++i;
+		++j;
 	}
 	return true;
 }
